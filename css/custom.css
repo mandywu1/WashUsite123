@@ -1,1 +1,181 @@
-/*your custom CSS here*/
+
+
+#logo {
+  height: 60px;
+  width: 65px;
+}
+.navbar-nav li {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18pt;
+
+}
+
+.navbar{
+  background-color: rgb(255, 32, 0);
+  padding-bottom: 0px;
+
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+
+}
+
+.navbar-nav p {
+  color: white;
+}
+.navbar-nav li:hover {
+  background-color: rgb(174, 32, 32);
+}
+.navbar{
+  text-align: center;
+}
+
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	min-height: 80px;
+}
+
+.nav li {
+	display: inline;
+	color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+
+}
+
+.nav li~li { border-left: 3px solid white }
+
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 1.7em;
+	font-weight: 300;
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #000000;
+	transition: 0.7s all linear;
+	height: 100%;
+}
+
+#carousel-example-generic {
+
+}
+
+
+
+.dropdown-menu a{
+  font-size: 12pt;
+
+}
+.dropdown-menu li {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.col-md-6 {
+  border-left: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+}
+.col-md-6 h3 {
+  color: #d01c8b;
+  text-align: center;
+
+}
+
+.navbar-fixed-bottom {
+  background-color: white;
+}
+
+
+.people-button {
+  padding-top: 40px;
+  margin: auto;
+  text-align: center;
+
+}
+
+#admins {
+  background-color: rgba(30, 145, 201, 0.5);
+}
+#profs {
+  background-color: rgba(30, 145, 201, 0.5);
+}
+
+.col-md-12 {
+  padding-top: 40px;
+  padding-left: 40%;
+  padding-right: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.pofile img {
+  float: left;
+}
+
+.info {
+  float: right;
+}
+
+.thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
+}
+
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption > .caption {
+    padding: 4px;
+}
+.navbar-fixed-bottom {
+  padding-top: 70px;
+}
+
+footer {
+  text-align: center;
+}
+.footer {
+  display: block;
+    text-align: center;
+
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+
+}
+
+
+
+.name-grid {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content {
+
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+#id {
+  border-left: 0px solid #ccc;
+  border-right: 0px solid #ccc;
+}
